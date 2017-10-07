@@ -1,21 +1,14 @@
 # wats4000-basicwebapp
 
-> A Vue.js project
 
-## Build Setup
+This is my first webapp using Cue that has been uploaded. This is how I went through the process from setting up my development environment to building it and deploying it in Gh-pages.
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+I made sure that my local development environment was all set up. I installed Vue-Cli globally on my local computer.
+Then I used web pack to set up the template this is all done through the terminal.
+Then I installed Vue and ran the app for the first time. 
+I then modified the files to make the web app personalized
+To deploy the webapp, I first created this repo and push and committed the information from the local development environment. 
+I then modified the files for Webpack in the build to say ‘docs’ instead of ‘dist’ and removed the ‘/‘ from the ‘accesspublicpath’ to make a relative path for Git hub.  
+Then I ran the build command to minified and uglified the files so the build will run smoother once deployed on the gh-pages.
+Then I add, commit and push the web pack configuration back to git hub.
+Lastly configure the gh-pages with the master branch/docfolder. To have the site url that can be share on here!
